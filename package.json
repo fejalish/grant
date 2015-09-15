@@ -26,7 +26,13 @@
   "dependencies": {
     "request"         : "2.59.0",
     "qs"              : "4.0.0",
-    "deep-copy"       : "*"
+    "deep-copy"       : "*",
+    "thunkify"        : "2.1.2",
+    "koa-route"       : "2.4.2"
+  },
+
+  "peerDependencies": {
+    "koa": ">=0.x.x"
   },
 
   "devDependencies": {
